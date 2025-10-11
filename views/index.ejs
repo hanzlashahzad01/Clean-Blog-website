@@ -1,0 +1,52 @@
+<%- include('partials/header') %>
+
+<header class="masthead bg-home-workspace">
+    <div class="container position-relative px-4 px-lg-5">
+        <div class="row gx-4 gx-lg-5 justify-content-center">
+            <div class="col-md-10 col-lg-8 col-xl-7">
+                <div class="site-heading">
+                    <h1>Clean Blog</h1>
+                    <span class="subheading">A Blog Theme by Start Bootstrap</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+<div class="container px-4 px-lg-5">
+    <div class="row gx-4 gx-lg-5 justify-content-center">
+        <div class="col-md-10 col-lg-8 col-xl-7">
+            <% if (typeof posts !== 'undefined' && posts.length > 0) { %>
+                <% posts.forEach(function(post) { %>
+                    <!-- Post preview-->
+                    <div class="post-preview">
+                        <a href="/posts/<%= post._id %>">
+                            <h2 class="post-title"><%= post.title %></h2>
+                            <h3 class="post-subtitle"><%= post.body.substring(0, 150) %>...</h3>
+                        </a>
+                        <p class="post-meta">
+                            Posted by
+                            <a href="#!"><%= post.author ? post.author.username : 'Anonymous' %></a>
+                            on <%= new Date(post.createdAt).toLocaleDateString('en-US', { 
+                                year: 'numeric', 
+                                month: 'long', 
+                                day: 'numeric' 
+                            }) %>
+                        </p>
+                    </div>
+                    <!-- Divider-->
+                    <hr class="my-4" />
+                <% }); %>
+            <% } else { %>
+                <div class="post-preview">
+                    <h2 class="post-title">Welcome to Clean Blog!</h2>
+                    <h3 class="post-subtitle">No posts yet. <a href="/posts/new">Create your first post</a> to get started.</h3>
+                </div>
+            <% } %>
+            
+            <!-- Pager-->
+            <div class="d-flex justify-content-end mb-4"><a class="btn btn-primary text-uppercase" href="#!">Older Posts →</a></div>
+        </div>
+    </div>
+</div>
+
+<%- include('partials/footer') %>

@@ -1,0 +1,72 @@
+/* Workspace Background CSS - Mimicking the clean workspace image */
+
+.bg-workspace {
+  background: 
+    radial-gradient(circle at 20% 80%, rgba(120, 119, 198, 0.3) 0%, transparent 50%),
+    radial-gradient(circle at 80% 20%, rgba(255, 119, 198, 0.15) 0%, transparent 50%),
+    radial-gradient(circle at 40% 40%, rgba(120, 219, 226, 0.2) 0%, transparent 50%),
+    linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  position: relative;
+  overflow: hidden;
+}
+
+.bg-workspace::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: 
+    /* Laptop shape */
+    linear-gradient(45deg, rgba(200, 200, 200, 0.1) 0%, rgba(180, 180, 180, 0.1) 100%) 20% 20% / 40% 30% no-repeat,
+    /* Coffee mug */
+    radial-gradient(circle, rgba(139, 69, 19, 0.2) 0%, rgba(160, 82, 45, 0.1) 100%) 75% 25% / 8% 12% no-repeat,
+    /* Notebook */
+    linear-gradient(90deg, rgba(255, 255, 255, 0.15) 0%, rgba(245, 245, 245, 0.1) 100%) 15% 60% / 25% 20% no-repeat,
+    /* Phone */
+    linear-gradient(90deg, rgba(50, 50, 50, 0.2) 0%, rgba(70, 70, 70, 0.1) 100%) 10% 70% / 8% 12% no-repeat,
+    /* Glasses */
+    radial-gradient(circle, rgba(100, 100, 100, 0.1) 0%, transparent 70%) 25% 80% / 6% 4% no-repeat;
+  z-index: 1;
+}
+
+.bg-workspace::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: 
+    /* Subtle patterns */
+    repeating-linear-gradient(
+      45deg,
+      transparent,
+      transparent 2px,
+      rgba(255, 255, 255, 0.03) 2px,
+      rgba(255, 255, 255, 0.03) 4px
+    );
+  z-index: 1;
+}
+
+/* Home page specific workspace background */
+.bg-home-workspace {
+  background: 
+    linear-gradient(135deg, rgba(102, 126, 234, 0.8) 0%, rgba(118, 75, 162, 0.8) 100%),
+    url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800"><defs><pattern id="workspace" patternUnits="userSpaceOnUse" width="1200" height="800"><rect width="1200" height="800" fill="%23f8f9fa"/><rect x="200" y="150" width="400" height="250" rx="10" fill="%23e9ecef" opacity="0.6"/><rect x="750" y="200" width="80" height="100" rx="5" fill="%23d4a574" opacity="0.4"/><rect x="150" y="500" width="250" height="200" rx="5" fill="%23ffffff" opacity="0.5"/><rect x="100" y="650" width="80" height="120" rx="5" fill="%23333" opacity="0.3"/><circle cx="300" cy="750" r="25" fill="%23666" opacity="0.2"/></pattern></defs><rect width="1200" height="800" fill="url(%23workspace)"/></svg>') center/cover;
+}
+
+/* About page background */
+.bg-about-workspace {
+  background: 
+    linear-gradient(135deg, rgba(240, 147, 251, 0.8) 0%, rgba(245, 87, 108, 0.8) 100%),
+    url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800"><defs><pattern id="about-workspace" patternUnits="userSpaceOnUse" width="1200" height="800"><rect width="1200" height="800" fill="%23f8f9fa"/><rect x="300" y="200" width="350" height="200" rx="10" fill="%23e9ecef" opacity="0.5"/><rect x="800" y="250" width="70" height="90" rx="5" fill="%23d4a574" opacity="0.3"/><rect x="200" y="450" width="200" height="150" rx="5" fill="%23ffffff" opacity="0.4"/></pattern></defs><rect width="1200" height="800" fill="url(%23about-workspace)"/></svg>') center/cover;
+}
+
+/* Contact page background */
+.bg-contact-workspace {
+  background: 
+    linear-gradient(135deg, rgba(79, 172, 254, 0.8) 0%, rgba(0, 242, 254, 0.8) 100%),
+    url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800"><defs><pattern id="contact-workspace" patternUnits="userSpaceOnUse" width="1200" height="800"><rect width="1200" height="800" fill="%23f8f9fa"/><rect x="250" y="180" width="380" height="220" rx="10" fill="%23e9ecef" opacity="0.5"/><rect x="780" y="220" width="75" height="95" rx="5" fill="%23d4a574" opacity="0.3"/><rect x="180" y="480" width="220" height="160" rx="5" fill="%23ffffff" opacity="0.4"/></pattern></defs><rect width="1200" height="800" fill="url(%23contact-workspace)"/></svg>') center/cover;
+}

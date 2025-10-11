@@ -1,0 +1,69 @@
+/* Workspace Image Background for All Pages */
+
+/* Home Page */
+header.masthead.bg-home-workspace {
+  background: url('/img/uploads/image-1760165435968-825590485.jpeg') center/cover !important;
+  background-attachment: fixed !important;
+  background-size: cover !important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+}
+
+/* About Page */
+header.masthead.bg-about-workspace {
+  background: url('https://images.unsplash.com/photo-1517433456452-f9633a875f6f?auto=format&fit=crop&w=1600&q=80') center/cover !important;
+  background-attachment: fixed !important;
+  background-size: cover !important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+}
+
+/* Contact Page */
+header.masthead.bg-contact-workspace {
+  background: url('https://images.unsplash.com/photo-1525182008055-f88b95ff7980?auto=format&fit=crop&w=1600&q=80') center/cover !important;
+  background-attachment: fixed !important;
+  background-size: cover !important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+}
+
+/* New Post Page */
+header.masthead.bg-post-workspace {
+  background: url('https://images.unsplash.com/photo-1515378791036-0648a3ef77b2?auto=format&fit=crop&w=1600&q=80') center/cover !important;
+  background-attachment: fixed !important;
+  background-size: cover !important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+}
+
+/* Register Page */
+header.masthead.bg-register-workspace {
+  background: url('https://images.unsplash.com/photo-1461749280684-dccba630e2f6?auto=format&fit=crop&w=1600&q=80') center/cover !important;
+  background-attachment: fixed !important;
+  background-size: cover !important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+}
+
+/* Login Page */
+header.masthead.bg-login-workspace {
+  background: url('https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?auto=format&fit=crop&w=1600&q=80') center/cover !important;
+  background-attachment: fixed !important;
+  background-size: cover !important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+}
+
+/* Ensure all masthead elements use the workspace image */
+header.masthead {
+  background-size: cover !important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+  background-attachment: fixed !important;
+}
+
+/* Make sure the overlay doesn't interfere with the image */
+header.masthead::before {
+  background-color: transparent !important;
+  opacity: 0 !important;
+}

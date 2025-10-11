@@ -1,0 +1,50 @@
+/* Actual Workspace Background using the uploaded image */
+
+.bg-home-workspace {
+  background: 
+    linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url('/img/uploads/image-1760159843113-925425308.png') center/cover;
+  background-attachment: fixed;
+}
+
+.bg-about-workspace {
+  background: 
+    linear-gradient(rgba(240, 147, 251, 0.5), rgba(245, 87, 108, 0.5)),
+    url('/img/uploads/image-1760159843113-925425308.png') center/cover;
+  background-attachment: fixed;
+}
+
+.bg-contact-workspace {
+  background: 
+    linear-gradient(rgba(79, 172, 254, 0.5), rgba(0, 242, 254, 0.5)),
+    url('/img/uploads/image-1760159843113-925425308.png') center/cover;
+  background-attachment: fixed;
+}
+
+.bg-post-workspace {
+  background: 
+    linear-gradient(rgba(67, 233, 123, 0.5), rgba(56, 249, 215, 0.5)),
+    url('/img/uploads/image-1760159843113-925425308.png') center/cover;
+  background-attachment: fixed;
+}
+
+.bg-register-workspace {
+  background: 
+    linear-gradient(rgba(250, 112, 154, 0.5), rgba(254, 225, 64, 0.5)),
+    url('/img/uploads/image-1760159843113-925425308.png') center/cover;
+  background-attachment: fixed;
+}
+
+.bg-login-workspace {
+  background: 
+    linear-gradient(rgba(168, 237, 234, 0.5), rgba(254, 214, 227, 0.5)),
+    url('/img/uploads/image-1760159843113-925425308.png') center/cover;
+  background-attachment: fixed;
+}
+
+/* Ensure the background covers the full viewport */
+header.masthead {
+  background-size: cover !important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+}

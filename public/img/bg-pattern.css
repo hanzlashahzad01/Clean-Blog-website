@@ -1,0 +1,25 @@
+/* Background patterns for Clean Blog theme */
+
+.bg-home {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+}
+
+.bg-about {
+  background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+}
+
+.bg-contact {
+  background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
+}
+
+.bg-post {
+  background: linear-gradient(135deg, #43e97b 0%, #38f9d7 100%);
+}
+
+.bg-register {
+  background: linear-gradient(135deg, #fa709a 0%, #fee140 100%);
+}
+
+.bg-login {
+  background: linear-gradient(135deg, #a8edea 0%, #fed6e3 100%);
+}

@@ -1,0 +1,31 @@
+{
+  "name": "clean-blog",
+  "version": "1.0.0",
+  "description": "A clean blog website built with Node.js, Express, and MongoDB",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "install-deps": "npm install",
+    "setup": "node install.js",
+    "init": "npm run setup && npm install"
+  },
+  "keywords": ["blog", "nodejs", "express", "mongodb", "ejs"],
+  "author": "Clean Blog",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "ejs": "^3.1.9",
+    "mongoose": "^7.5.0",
+    "bcryptjs": "^2.4.3",
+    "express-session": "^1.17.3",
+    "multer": "^1.4.5-lts.1",
+    "connect-flash": "^0.1.1",
+    "dotenv": "^16.3.1",
+    "express-validator": "^7.0.1",
+    "method-override": "^3.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
