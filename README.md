@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Clean Blog Website
 
 A complete blog website built with Node.js, Express, and MongoDB, following Greg Lim's "Beginning Node.js, Express & MongoDB Development" book.
@@ -180,3 +181,6 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 - Based on Greg Lim's "Beginning Node.js, Express & MongoDB Development" book
 - Uses the Clean Blog Bootstrap theme
 - Inspired by modern web development best practices
+=======
+# blognew
+>>>>>>> 71703dfc364ed22f4c2ca2fc441eb61764cbb50c
