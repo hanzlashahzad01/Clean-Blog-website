@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Clean Blog Website
 
 A complete blog website built with Node.js, Express, and MongoDB, following Greg Lim's "Beginning Node.js, Express & MongoDB Development" book.
@@ -181,6 +180,42 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 - Based on Greg Lim's "Beginning Node.js, Express & MongoDB Development" book
 - Uses the Clean Blog Bootstrap theme
 - Inspired by modern web development best practices
-=======
-# blognew
->>>>>>> 71703dfc364ed22f4c2ca2fc441eb61764cbb50c
+
+# ScreenShots
+
+### User Register Page
+
+<img width="1919" height="1031" alt="register" src="https://github.com/user-attachments/assets/89610eee-56a0-4db3-869b-4e87fab15014" />
+
+<img width="1919" height="936" alt="register1" src="https://github.com/user-attachments/assets/aed39ab9-2423-4ca6-ba66-f7aae825ea0a" />
+
+## Login Page
+
+<img width="1919" height="1032" alt="login" src="https://github.com/user-attachments/assets/72390506-0866-40f4-b96d-00f34d2ee084" />
+
+<img width="1919" height="1028" alt="login1" src="https://github.com/user-attachments/assets/a86fac9d-f007-48cb-9b9f-33e899c575fa" />
+
+## Home Page
+
+<img width="1919" height="1029" alt="home" src="https://github.com/user-attachments/assets/11fd2b2c-58a3-4083-b763-5187f0f1f6eb" />
+
+<img width="1919" height="1031" alt="home1" src="https://github.com/user-attachments/assets/1ab09c4b-f5ef-4a05-ab8e-aa230ed227d2" />
+
+### Add New Post
+
+<img width="1919" height="1033" alt="aad new post" src="https://github.com/user-attachments/assets/90c274e1-aa5c-4161-aa0f-2b7c277d68f9" />
+
+<img width="1919" height="1034" alt="add poste1" src="https://github.com/user-attachments/assets/000b39ad-112b-4daf-a8b9-bd46fdbfc255" />
+
+## About Page
+
+<img width="1919" height="1035" alt="about" src="https://github.com/user-attachments/assets/ea808fec-38ba-4fb2-9156-27a0d949e9f4" />
+
+<img width="1919" height="1032" alt="about1" src="https://github.com/user-attachments/assets/158350d3-c780-4b80-acb6-3d8a25d9af9f" />
+
+## Contact Page
+
+<img width="1919" height="1031" alt="contact" src="https://github.com/user-attachments/assets/74e3f13e-2e1f-419a-96c8-75d463c01df7" />
+
+<img width="1919" height="1032" alt="contact1" src="https://github.com/user-attachments/assets/eb46adc8-33c3-4286-ab74-ee2ee8ec1b9d" />
+
